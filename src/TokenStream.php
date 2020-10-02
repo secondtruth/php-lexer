@@ -1,16 +1,11 @@
 <?php
-/**
+/*
  * PHP Lexer
  * Copyright (C) 2020 Christian Neff
  *
  * Permission to use, copy, modify, and/or distribute this software for
  * any purpose with or without fee is hereby granted, provided that the
  * above copyright notice and this permission notice appear in all copies.
- *
- * @package  Secondtruth\Lexer
- * @version  0.1-dev
- * @link     https://www.secondtruth.de
- * @license  https://opensource.org/licenses/MIT MIT License
  */
 
 declare(strict_types=1);
@@ -20,7 +15,7 @@ namespace Secondtruth\Lexer;
 /**
  * Class TokenStream.
  *
- * @author   Christian Neff <christian.neff@gmail.com>
+ * @author Christian Neff <christian.neff@gmail.com>
  */
 class TokenStream
 {
@@ -82,8 +77,6 @@ class TokenStream
      * Tells the token stream to skip input tokens until it sees a token with the given value.
      *
      * @param string $type The token type to skip until.
-     *
-     * @return void
      */
     public function skipUntil($type)
     {
@@ -212,8 +205,6 @@ class TokenStream
 
     /**
      * Resets the token stream.
-     *
-     * @return void
      */
     public function reset()
     {
@@ -225,8 +216,6 @@ class TokenStream
      * Resets the token stream to the given position.
      *
      * @param int $position Position to place the lexical scanner.
-     *
-     * @return void
      */
     public function resetPosition($position = 0)
     {
@@ -235,8 +224,6 @@ class TokenStream
 
     /**
      * Resets the peek pointer.
-     *
-     * @return void
      */
     public function resetPeek()
     {

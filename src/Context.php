@@ -1,16 +1,11 @@
 <?php
-/**
+/*
  * PHP Lexer
- * Copyright (C) 2020 Christian Neff.
+ * Copyright (C) 2020 Christian Neff
  *
  * Permission to use, copy, modify, and/or distribute this software for
  * any purpose with or without fee is hereby granted, provided that the
  * above copyright notice and this permission notice appear in all copies.
- *
- * @package  Secondtruth\Lexer
- * @version  0.1-dev
- * @link     https://www.secondtruth.de
- * @license  https://opensource.org/licenses/MIT MIT License
  */
 
 declare(strict_types=1);
@@ -20,7 +15,7 @@ namespace Secondtruth\Lexer;
 /**
  * Class Context.
  *
- * @author   Christian Neff <christian.neff@gmail.com>
+ * @author Christian Neff <christian.neff@gmail.com>
  */
 class Context
 {
